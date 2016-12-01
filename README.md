@@ -2,10 +2,11 @@
 
 A Test Programe on github.
 
-<p align="center">
-  <img src="https://github.com/amitKumartomar/Androidratinglibrary/tree/master-SNAPSHOT/1.jpg" width="350"/>
-  <img src="https://github.com/amitKumartomar/Androidratinglibrary/tree/master-SNAPSHOT/2.jpg" width="350"/>
-</p>
+
+![11](https://cloud.githubusercontent.com/assets/20965301/20809809/3887ecda-b82d-11e6-9bc3-af3cf4b8ea32.png)
+
+![22](https://cloud.githubusercontent.com/assets/20965301/20809883/6ef8d2ca-b82d-11e6-80fc-30b1a6f15be2.png)
+
 
 # Install
 ```sh
