@@ -9,7 +9,6 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
 import android.support.v7.app.AlertDialog;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -99,12 +98,14 @@ public class RatingDialog implements  OnClickListener{
         if(showstar) {
             this.ratingBar.setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
                 public void onRatingChanged(RatingBar ratingBar, float v, boolean b) {
-                    Log.d("Rating Library", "User Rating :" + v);
                     RatingDialog.this.openplayMarket();
+                    RatingDialog.this.dialog.hide();
                     if (RatingDialog.this.reviewfeedbacklistener != null) {
                         RatingDialog.this.reviewfeedbacklistener.onReview((int) ratingBar.getRating());
                     }
+
                 }
+
             });
         }
         else
